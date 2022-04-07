@@ -1,7 +1,5 @@
 setTimeout(function(){ 
 
-<script>
-
     // Converse ID 1136-2166-3123-17736 generated 2022-04-07T11:22:20.979Z
     (function() {
         function async_load(target){
@@ -28,8 +26,6 @@ document.querySelector('#  ').addEventListener('click', function() {
 	const openBubble = new MouseEvent('click');
 	document.querySelector('.adbotic-chatbot-bubble-mob').dispatchEvent(openBubble);
 });
-</script>
-
 
 var target = top.document.querySelectorAll('.ayl_v_ckr_b')[0];
 var clickElement = document.createElement("div");
