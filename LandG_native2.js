@@ -50,6 +50,6 @@ var clickFunction = function() {
 setTimeout(function(){
     target.addEventListener('click', clickFunction, true);
 target.addEventListener('touchstart', clickFunction, true);
-},2000);
+},1100);
 
 }, 1000);
