@@ -1,4 +1,6 @@
-    // Converse ID 1363-2572-3381-20547 generated 2022-08-05T10:47:32.938Z
+setTimeout(function(){ 
+    
+// Converse ID 1363-2572-3381-20547 generated 2022-08-05T10:47:32.938Z
     (function() {
         function async_load(target){
             var s = target.document.createElement('script');
