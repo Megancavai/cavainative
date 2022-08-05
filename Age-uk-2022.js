@@ -1,15 +1,13 @@
-setTimeout(function(){ 
-
-    // Converse ID 1363-2572-3381-20466 generated 2022-08-02T09:05:06.340Z
+    // Converse ID 1363-2572-3381-20547 generated 2022-08-05T10:47:32.938Z
     (function() {
         function async_load(target){
             var s = target.document.createElement('script');
             s.type = 'text/javascript';
             s.id = 'cavai-script';
-            var theUrl = 'https://cloud.cavai.com/js/converses/widgets/converse-widget.1659362885104-1658305666368-1657724053390-1657723473892-1657700843814-f022cc7ed9d4c4ae081176d591895e1b.min.js?bust=' + Date.now();
+            var theUrl = 'https://cloud.cavai.com/js/converses/widgets/converse-widget.1659695454947-1659362885104-1658305666368-1657724053390-1657723473892-1657700843814-f022cc7ed9d4c4ae081176d591895e1b.min.js?bust=' + Date.now();
             s.src = theUrl;
             s.async = true;
-            
+            s.dataset.clickthroughUrl = 'https://ad.doubleclick.net/ddm/trackclk/N1707.4545574CAVAIDV360ISDIN/B28288407.342322151;dc_trk_aid=534173369;dc_trk_cid=175431329;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=';
             s.dataset.clickMacro = 'MACRO_PLACEHOLDER';
             s.dataset.bubbleAppearance = 'custom'
 
@@ -21,6 +19,7 @@ setTimeout(function(){
           async_load(window)
         }
     })();
+
 
 var target = top.document.querySelectorAll('.ayl_v_ckr_b')[0];
 var clickElement = document.createElement("div");
