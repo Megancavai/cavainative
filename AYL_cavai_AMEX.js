@@ -1,12 +1,12 @@
 setTimeout(function(){ 
-
-    // Converse ID 1529-2888-3847-20562 generated 2022-08-11T07:37:18.192Z
+        
+    // Converse ID 463-2809-3741-22183 generated 2022-10-25T12:31:26.920Z
     (function() {
         function async_load(target){
             var s = target.document.createElement('script');
             s.type = 'text/javascript';
             s.id = 'cavai-script';
-            var theUrl = 'https://cloud.cavai.com/js/converses/widgets/converse-widget.552e160777af3491252c02daacb490c2.min.js?bust=' + Date.now();
+            var theUrl = 'https://cloud.cavai.com/js/converses/widgets/converse-widget.1666700885664-3300b418277715667396b5054335bb7c.min.js?bust=' + Date.now();
             s.src = theUrl;
             s.async = true;
             
@@ -22,7 +22,7 @@ setTimeout(function(){
         }
     })();
     
-document.querySelector('#  ').addEventListener('click', function() {
+document.querySelector('# ').addEventListener('click', function() {
 	const openBubble = new MouseEvent('click');
 	document.querySelector('.adbotic-chatbot-bubble-mob').dispatchEvent(openBubble);
 });
