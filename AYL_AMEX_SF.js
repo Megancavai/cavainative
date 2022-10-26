@@ -23,10 +23,6 @@ setTimeout(function(){
         }
     })();
     
-document.querySelector('# ').addEventListener('click', function() {
-	const openBubble = new MouseEvent('click');
-	document.querySelector('.adbotic-chatbot-bubble-mob').dispatchEvent(openBubble);
-});
 
 var target = top.document.querySelectorAll('.ayl_v_ckr_b')[0];
 var clickElement = document.createElement("div");
