@@ -1,4 +1,4 @@
-(function(){ 
+(function()  { 
         function async_load(target){
             var s = target.document.createElement('script');
             s.type = 'text/javascript';
