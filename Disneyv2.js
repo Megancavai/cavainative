@@ -1,4 +1,6 @@
-function async_load(target){
+
+    (function() {
+        function async_load(target){
             var s = target.document.createElement('script');
             s.type = 'text/javascript';
             s.id = 'cavai-script';
@@ -7,7 +9,7 @@ function async_load(target){
             s.async = true;
             
             s.dataset.clickMacro = 'MACRO_PLACEHOLDER';
-            s.dataset.bubbleAppearance = 'default'
+            s.dataset.bubbleAppearance = 'custom'
 
             target.document.body.appendChild(s);
         }
@@ -17,17 +19,17 @@ function async_load(target){
           async_load(window)
         }
     })();
-
-var clickFunction = function() {
     
-    /*cavai code for clicking*/
-    const openBubble = new MouseEvent('click');
-    document.querySelector('.adbotic-chatbot-bubble-mob').dispatchEvent(openBubble);
+var clickFunction = function() {
 
-    event.preventDefault();
-    event.stopPropagation();
-    return false;
-}
+        /*cavai code for clicking*/
+        const openBubble = new MouseEvent('click');
+        document.querySelector('#creativeHeader [class*="expandable-icon"]').click()
+
+        event.preventDefault();
+        event.stopPropagation();
+        return false;
+    }
 
 function winLoad(callback) {
   if (document.readyState === 'complete') {
@@ -40,10 +42,8 @@ function winLoad(callback) {
 winLoad(function() {
     console.log('page is fully loaded');
         try {
-
-
-setTimeout(function(){
-     var target = top.document.querySelectorAll('.ayl_v_ckr_b')[0];
+          setTimeout(function(){
+          var target = top.document.querySelectorAll('.ayl_v_ckr_b')[0];
           var clickElement = document.createElement("div");
           clickElement.style.position = "absolute";
           clickElement.style.left = "0px";
@@ -61,6 +61,6 @@ setTimeout(function(){
           }},1000);
 
           } catch (e) {
-            console.log(e)
+            console.log(`cavai error log: ${e}`)
           }
         });
