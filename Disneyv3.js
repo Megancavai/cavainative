@@ -21,15 +21,15 @@
     })();
     
 var clickFunction = function() {
+    
+    /*cavai code for clicking*/
+    const openBubble = new MouseEvent('click');
+    document.querySelector('.adbotic-chatbot-bubble-mob').dispatchEvent(openBubble);
 
-        /*cavai code for clicking*/
-        const openBubble = new MouseEvent('click');
-        document.querySelector('#creativeHeader [class*="expandable-icon"]').click()
-
-        event.preventDefault();
-        event.stopPropagation();
-        return false;
-    }
+    event.preventDefault();
+    event.stopPropagation();
+    return false;
+}
 
 function winLoad(callback) {
   if (document.readyState === 'complete') {
